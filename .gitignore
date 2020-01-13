@@ -1,0 +1,9 @@
+# Project exclude paths
+/ChatRoom-Base/lib-clink/build/
+/ChatRoom-Base/lib-clink/build/classes/java/main/
+/ChatRoom-Base/sample-client/build/
+/ChatRoom-Base/sample-client/build/classes/java/main/
+/ChatRoom-Base/sample-foo/build/
+/ChatRoom-Base/sample-foo/build/classes/java/main/
+/ChatRoom-Base/sample-server/build/
+/ChatRoom-Base/sample-server/build/classes/java/main/

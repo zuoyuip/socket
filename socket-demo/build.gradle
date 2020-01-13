@@ -1,0 +1,37 @@
+plugins {
+    id 'java'
+}
+
+group 'org.zuoyu'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
+}
+
+[compileJava,compileTestJava,javadoc]*.options*.encoding = 'UTF-8'
+
+
+repositories {
+
+    mavenCentral()
+
+    //    这里使用的是阿里巴巴的Maven仓库
+    maven {
+        url 'http://maven.aliyun.com/nexus/content/groups/public/'
+    }
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compileOnly 'org.projectlombok:lombok:1.18.10'
+    annotationProcessor 'org.projectlombok:lombok:1.18.10'
+}
+
+test {
+    useJUnitPlatform()
+}
