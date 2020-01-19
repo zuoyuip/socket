@@ -1,5 +1,5 @@
-rootProject.name = 'ChatRoom-Base'
-rootProject.name = 'ChatRoom-Base'
+rootProject.name = 'ChatRoom-Nio'
+rootProject.name = 'ChatRoom-Nio'
 include 'lib-clink'
 include 'sample-server'
 include 'sample-client'
